@@ -1,0 +1,45 @@
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 2rem;
+    }
+    section{
+        padding: 2rem;
+    }
+}
+@media (max-width:768px){
+     .header .navbar{
+        background: #fff;
+        position: absolute;
+        top: 110%;
+        right: -110%;
+        border-radius: .5rem;
+        padding: 1rem;
+        box-shadow: var(--box-shadow);
+        width: 30rem;
+        display: block;
+     }
+     #menu-btn{
+        display: inline-block;
+    }
+     .header .navbar a{
+         font-size: 2rem;
+         margin: 2rem 2.5rem;
+         display: block;
+         text-align: center;
+     }
+}
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    
+    .heading{
+        font-size: 2.5rem;
+    }
+    .footer{
+        text-align: center;
+    }
+}
